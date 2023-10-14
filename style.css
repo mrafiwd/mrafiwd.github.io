@@ -49,3 +49,15 @@ table {
 }
 
 /* css style mulai dari sini */
+body{
+    background-color: rgb(87, 50, 8);
+    opacity: 50%;
+}
+
+.navbar{
+    background-color: #512409;
+    position: fixed;
+    top: 0;
+
+    
+}
