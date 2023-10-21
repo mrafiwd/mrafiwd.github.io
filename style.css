@@ -49,3 +49,122 @@ table {
 }
 
 /* css style mulai dari sini */
+.navigasi{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 999;
+}
+
+a{
+    text-decoration: none;
+}
+
+.linknav a{
+    line-height: 70px;
+    color: white;
+    float: right;
+    margin-right: 20px;
+}
+
+.linknav ul li ul li a{
+text-align: center;
+}
+
+body{
+    background-color: rgb(55, 50, 50);
+}
+
+.homebutton a{
+    line-height: 70px;
+    float: left;
+    margin-left: 20px;
+    color: white;
+}
+.navigasi a:hover{
+    text-decoration: none;
+    color: gainsboro;
+    border: 1px;
+    border-radius: 25%;
+    border-color: rgb(48, 41, 41);
+    background-color: rgb(48, 41, 41) ;
+}
+
+.main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.mainhome{
+    margin-top: 100px;
+    padding-top: 75px;
+}
+
+.h1home {
+    font-weight: bold; 
+    font-size: x-large;
+    color: white;
+    
+}
+
+
+
+.homekiri{
+    float: left;
+}
+
+.homekanan{
+    margin-top: 100px;
+}
+
+.homekanan p{
+    text-align: justify;
+    color: white;
+}
+
+.aboutme{
+    padding-top: 200px ;
+}
+
+.aboutmeright img{
+    float: left;
+}
+
+.aboutmeleft{
+    padding-top: 100px;
+}
+.h1aboutme {
+    font-weight: bold; 
+    font-size: x-large;
+    color: white;
+    margin-left: 50px;
+    
+}
+
+.aboutmeleft p{
+    color: white;
+    text-align: justify;
+    margin-left: 50px;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
