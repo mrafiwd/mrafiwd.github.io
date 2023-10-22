@@ -17,5 +17,7 @@ function sendMessage() {
         alert("Phone Number is invalid");
         return false;
     }
+
+    alert("Pesanan telah dikirim")
     return true;
 }
